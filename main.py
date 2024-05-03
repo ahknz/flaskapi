@@ -11,7 +11,7 @@ def get_user(user_id):
   user_data = {
     "user_id": user_id,
     "name" : "Felix",
-    "email" : "felix@email.com"
+    "email" : "felix@test.com"
   }
   return jsonify(user_data), 200
 
